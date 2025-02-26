@@ -7,7 +7,7 @@
     --header-font: 'Oswald', sans-serif;
 }
 
-/* Base Styles */
+/* Main */
 body {
     margin: 0;
     background-color: var(--oregon-green);
@@ -18,7 +18,7 @@ body {
     height: 100vh;
 }
 
-/* Header Styles */
+/* Header */
 .site-header {
     display: flex;
     justify-content: space-between;
@@ -66,7 +66,6 @@ body {
     margin: 20px 0;
 }
 
-/* Event Cards */
 .event {
     padding: 20px;
     border: 1px solid black;
@@ -89,7 +88,7 @@ body {
     gap: 20px;
 }
 
-/* Calendar Styles */
+/* Calendar */
 .calendar-container {
     max-width: 1200px;
     margin: 2rem auto;
@@ -118,7 +117,7 @@ body {
     margin: 2rem auto;
 }
 
-/* Table Styles */
+/* Table */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -151,7 +150,6 @@ td {
     transition: background-color 0.2s ease;
 }
 
-/* Calendar Elements */
 td::before {
     content: attr(data-date);
     position: absolute;
@@ -173,7 +171,7 @@ td.current-day {
     border: 2px solid var(--lightning-yellow);
 }
 
-/* Footer Styles */
+/* Footer */
 .site-footer {
     background-color: var(--steel-gray);
     color: var(--lightning-yellow);
@@ -202,7 +200,7 @@ fieldset {
     margin: 20px 0;
 }
 
-/* Contact Page Styles */
+/* Contact Page*/
 
 @media (max-width: 768px) {
     .form-container {
