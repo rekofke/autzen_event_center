@@ -13,12 +13,12 @@
 
     <!-- Header -->
     <header class="site-header">
-        <a href="index.html" class="site-logo">Event Center</a>
+        <a href="index.html" class="site-logo">Autzen Stadium</a>
         <nav class="navbar">
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="events.html">Events</a></li>
-                <li><a href="menu.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
                 <li><a href="location.html">Location</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
@@ -26,15 +26,73 @@
     </header>
 
     <!-- Main Content -->
-    <main class="site-main">
-
+    <main class="site-main contact-page">
+        <div class="form-container">
+            <form class="contact-form">
+                <fieldset class="form-section">
+                    <legend class="form-legend">Your Review</legend>
+                    <div class="form-group">
+                        <label for="hear-about">How did you hear about us?</label>
+                        <select id="hear-about" name="hear_about" class="form-input">
+                            <option value="Friend">Friend</option>
+                            <option value="Social Media">Social Media</option>
+                            <option value="Other">Other</option>
+                        </select>
+                    </div>
+    
+                    <div class="form-group">
+                        <fieldset class="radio-group">
+                            <legend>Would you visit us again?</legend>
+                            <div class="radio-options">
+                                <label class="radio-label">
+                                    <input type="radio" name="visit_again" value="yes">
+                                    <span class="radio-custom"></span>
+                                    Yes
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="visit_again" value="no">
+                                    <span class="radio-custom"></span>
+                                    No
+                                </label>
+                                <label class="radio-label">
+                                    <input type="radio" name="visit_again" value="maybe">
+                                    <span class="radio-custom"></span>
+                                    Maybe
+                                </label>
+                            </div>
+                        </fieldset>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="comments">Comments</label>
+                        <textarea id="comments" name="comments" class="form-input" rows="4"></textarea>
+                    </div>
+    
+                    <div class="form-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="subscribe" checked>
+                            <span class="checkmark"></span>
+                            Sign me up for email updates
+                        </label>
+                    </div>
+                </fieldset>
+    
+                <fieldset class="form-section contact-info">
+                    <legend class="form-legend">Contact Details</legend>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" class="form-input" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="mobile">Mobile</label>
+                        <input type="tel" id="mobile" name="mobile" class="form-input">
+                    </div>
+                    <div class="form-group">
+                        <label for="telephone">Telephone</label>
+                        <input type="tel" id="telephone" name="telephone" class="form-input">
+                    </div>
+                    <button type="submit" class="btn-submit">Submit Form</button>
+                </fieldset>
+            </form>
+        </div>
     </main>
-
-    <!-- Footer -->
-    <footer class="site-footer">
-        <p>&copy; 2025 Event Center. All rights reserved.</p>
-    </footer>
-
-</body>
-
-</html>
