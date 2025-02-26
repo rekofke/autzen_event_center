@@ -1,0 +1,123 @@
+<!DOCTYPE html5>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Center - About</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="site-header">
+        <a href="index.html" class="site-logo">Event Center</a>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="location.html">Location</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="site-main">
+            <table class="menu-table">
+                <tr>
+                    <th>Appetizer</th>
+                    <th>Main</th>
+                    <th>Dessert</th>
+                </tr>
+                <tr>
+                    <td>Sauteed Jumbo Prawns</td>
+                    <td>12oz NY, Spring Vegetables & Choice of Potato</td>
+                    <td>Tiramisu</td>
+                </tr>
+                <tr>
+                    <td>Grilled jerk shrimp and pineapple skewers</td>
+                    <td>Filet Mignon, Spring Vegetables & Choice of Potato</td>
+                    <td>Apple Rose Puffs</td>
+                </tr>
+                <tr>
+                    <td>Oysters on the half shell</td>
+                    <td>Prime Rib, Spring Vegetables & Choice of Potato</td>
+                    <td>Vanilla Bean Panna Cotta</td>
+                </tr>
+            </table>
+            </main>
+            
+            <style>
+                .menu-table {
+                    width: 100%;
+                    border-collapse: collapse;
+                    margin: 2rem 0;
+                    background-color: var(--white);
+                    border: 2px solid var(--oregon-green);
+                    border-radius: 8px;
+                    overflow: hidden;
+                }
+            
+                .menu-table th {
+                    background-color: var(--dark-accent);
+                    color: var(--white);
+                    padding: 1.5rem;
+                    font-size: 1.25rem;
+                    border-bottom: 3px solid var(--lightning-yellow);
+                    font-family: var(--header-font);
+                }
+            
+                .menu-table td {
+                    padding: 1.25rem;
+                    border: 1px solid var(--steel-gray);
+                    color: var(--oregon-green);
+                    vertical-align: top;
+                    line-height: 1.6;
+                }
+            
+                .menu-table tr:nth-child(even) {
+                    background-color: rgba(140, 141, 143, 0.05);
+                }
+            
+                .menu-table tr:hover {
+                    background-color: rgba(252, 234, 16, 0.08);
+                }
+            
+                @media (max-width: 768px) {
+                    .menu-table {
+                        border: none;
+                    }
+            
+                    .menu-table th,
+                    .menu-table td {
+                        padding: 1rem;
+                        display: block;
+                        width: 100% !important;
+                    }
+            
+                    .menu-table tr {
+                        display: block;
+                        margin-bottom: 1.5rem;
+                        border: 2px solid var(--steel-gray);
+                        border-radius: 6px;
+                    }
+            
+                    .menu-table th {
+                        border-radius: 4px 4px 0 0;
+                    }
+                }
+            </style>
+    
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2025 Event Center. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
