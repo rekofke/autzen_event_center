@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event Center - Contact</title>
+    <title>Event Center - Events</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -26,73 +26,43 @@
     </header>
 
     <!-- Main Content -->
-    <main class="site-main contact-page">
-        <div class="form-container">
-            <form class="contact-form">
-                <fieldset class="form-section">
-                    <legend class="form-legend">Your Review</legend>
-                    <div class="form-group">
-                        <label for="hear-about">How did you hear about us?</label>
-                        <select id="hear-about" name="hear_about" class="form-input">
-                            <option value="Friend">Friend</option>
-                            <option value="Social Media">Social Media</option>
-                            <option value="Other">Other</option>
-                        </select>
-                    </div>
-    
-                    <div class="form-group">
-                        <fieldset class="radio-group">
-                            <legend>Would you visit us again?</legend>
-                            <div class="radio-options">
-                                <label class="radio-label">
-                                    <input type="radio" name="visit_again" value="yes">
-                                    <span class="radio-custom"></span>
-                                    Yes
-                                </label>
-                                <label class="radio-label">
-                                    <input type="radio" name="visit_again" value="no">
-                                    <span class="radio-custom"></span>
-                                    No
-                                </label>
-                                <label class="radio-label">
-                                    <input type="radio" name="visit_again" value="maybe">
-                                    <span class="radio-custom"></span>
-                                    Maybe
-                                </label>
-                            </div>
-                        </fieldset>
-                    </div>
-    
-                    <div class="form-group">
-                        <label for="comments">Comments</label>
-                        <textarea id="comments" name="comments" class="form-input" rows="4"></textarea>
-                    </div>
-    
-                    <div class="form-group">
-                        <label class="checkbox-label">
-                            <input type="checkbox" name="subscribe" checked>
-                            <span class="checkmark"></span>
-                            Sign me up for email updates
-                        </label>
-                    </div>
-                </fieldset>
-    
-                <fieldset class="form-section contact-info">
-                    <legend class="form-legend">Contact Details</legend>
-                    <div class="form-group">
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="email" class="form-input" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="mobile">Mobile</label>
-                        <input type="tel" id="mobile" name="mobile" class="form-input">
-                    </div>
-                    <div class="form-group">
-                        <label for="telephone">Telephone</label>
-                        <input type="tel" id="telephone" name="telephone" class="form-input">
-                    </div>
-                    <button type="submit" class="btn-submit">Submit Form</button>
-                </fieldset>
-            </form>
-        </div>
-    </main>
+    <main class="site-main">
+        <section class="Welcome">
+            <h2>2025 Events Schedule</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Event</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jul 16</td>
+                    <td>Hip-Hop & R&B Festival</td>
+                    <td>$149.99</td>
+                </tr>
+                <tr>
+                    <td>Aug 2</td>
+                    <td>Shakespeare Festival</td>
+                    <td>$79.99</td>
+                </tr>
+                <tr>
+                    <td>Sep 2-3</td>
+                    <td>Van's Warped Tour</td>
+                    <td>$199.99</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <p>&copy; 2025 Event Center. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
